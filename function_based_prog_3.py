@@ -15,6 +15,7 @@ Ways of Creating Functions? Minimum we all have to know
 '''
 print("hello team data bricks from databricks to github changes")
 print("here i am putting some comments from databricks side")
+print("here commiting code from github side")
 #FUNCTION BASED PROGRAMMING (Python is a pure FBP Language, Python treats Functions as first class citizen)
 #What? Function/Method is a stored program that perform specific/set of tasks
 
