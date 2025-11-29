@@ -14,6 +14,7 @@ Ways of Creating Functions? Minimum we all have to know
 6. Advanced topics (special types of functions) (dont worry, its for interview)
 '''
 print("hello team data bricks from databricks to github changes")
+print("here i am putting some comments from databricks side")
 #FUNCTION BASED PROGRAMMING (Python is a pure FBP Language, Python treats Functions as first class citizen)
 #What? Function/Method is a stored program that perform specific/set of tasks
 
