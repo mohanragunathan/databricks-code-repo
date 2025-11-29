@@ -13,7 +13,7 @@ Ways of Creating Functions? Minimum we all have to know
 5. Possible ways of invoking the functions passing/using the different argument types (5 types)
 6. Advanced topics (special types of functions) (dont worry, its for interview)
 '''
-
+print("hello team data bricks")
 #FUNCTION BASED PROGRAMMING (Python is a pure FBP Language, Python treats Functions as first class citizen)
 #What? Function/Method is a stored program that perform specific/set of tasks
 
