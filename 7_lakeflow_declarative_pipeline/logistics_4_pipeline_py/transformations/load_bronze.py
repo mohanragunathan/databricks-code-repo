@@ -1,8 +1,8 @@
 from pyspark import pipelines as dp
-
+#We are modernizing our Imperative Pipeline to Declarative
+#We are using Lakeflow Ingestion (Auto Loader)
 @dp.table(name="bronze_staff_data1")
 def bronze_staff_data():
-
     return (spark.readStream
             .format("cloudFiles")
             .option("cloudFiles.format", "csv")
@@ -13,7 +13,6 @@ def bronze_staff_data():
 
 @dp.table(name="bronze_geotag_data1")
 def bronze_geotag_data():
-
     return (
         spark.readStream
             .format("cloudFiles")
@@ -25,7 +24,6 @@ def bronze_geotag_data():
 
 @dp.table(name="bronze_shipments_data1")
 def bronze_shipments_data():
-
     return (
         spark.readStream
             .format("cloudFiles")
