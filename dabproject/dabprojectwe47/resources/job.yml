@@ -1,0 +1,12 @@
+resources:
+  jobs:
+    Sample_DAB:
+      name: Sample_DAB
+      tasks:
+        - task_key: sample_DAB
+          notebook_task:
+            notebook_path: /Workspace/Users/mohanragunathan2017@gmail.com/databricks-code-repo/dabproject/dabprojectwe47/src/sample.py
+            source: WORKSPACE
+      queue:
+        enabled: true
+      performance_target: PERFORMANCE_OPTIMIZED
